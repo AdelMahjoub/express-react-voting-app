@@ -1,8 +1,8 @@
 {
-  "name": "express-app-starter-pack",
+  "name": "f2c-mern-voting-app",
   "private": true,
   "version": "1.0.0",
-  "description": "A beginners friendly starter boilerplate for building multi pages or single page web apps using expressjs",
+  "description": "front to back voting app with react and express",
   "main": "server.js.js",
   "engines": {
     "node": "6.11.1",
