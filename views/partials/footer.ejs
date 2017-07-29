@@ -1,0 +1,25 @@
+  <script src="/bundle.js"></script>
+  <div class="container">
+    <div class="row">
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-12">  
+        <div class="text-center">
+        <% if(socials && socials.length > 0) { %>
+          <% socials.forEach(function(link) { %>
+          <a 
+            class="social-icon" 
+            href="<%= link['url']%>" 
+            title="<%= link['icon'] %>"
+            target="_blank">
+            <i class="fa fa-<%= link['icon'] %>"></i>
+          </a>
+          <% }); %>
+        <% } %>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
